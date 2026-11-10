@@ -1,4 +1,27 @@
 # anti-tracing
+# openai/chatgpt
+0.0.0.0 ab.chatgpt.com
+0.0.0.0 telemetry.openai.com
+# Anthropic / Claude
+0.0.0.0 statsig.anthropic.com
+0.0.0.0 o1158394.ingest.us.sentry.io
+0.0.0.0 sentry.io
+0.0.0.0 *.ingest.us.sentry.io
+0.0.0.0 cdn.growthbook.io
+0.0.0.0 http-intake.logs.us5.datadoghq.com
+# GitHub Copilot
+0.0.0.0 copilot-telemetry.githubusercontent.com
+0.0.0.0 collector.github.com
+0.0.0.0 default.exp-tas.com
+0.0.0.0 telemetry.enterprise.githubcopilot.com
+# Google Gemini / AI Studio
+0.0.0.0 www.google-analytics.com
+0.0.0.0 analytics.google.com
+# Perplexity
+0.0.0.0 datadoghq.com
+0.0.0.0 segment.io
+0.0.0.0 singular.net
+# nextjs
 0.0.0.0 telemetry.nextjs.org
 # gopls
 0.0.0.0 telemetry.golang.org
@@ -31,7 +54,6 @@
 0.0.0.0 slock-trace-upload.botiverse.dev
 # google
 0.0.0.0		google-analytics.com
-0.0.0.0		www.google-analytics.com
 0.0.0.0		ssl.google-analytics.com
 0.0.0.0		adservice.google.com
 0.0.0.0		www.googletagmanager.com
