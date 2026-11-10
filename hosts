@@ -14,6 +14,12 @@
 0.0.0.0 collector.github.com
 0.0.0.0 default.exp-tas.com
 0.0.0.0 telemetry.enterprise.githubcopilot.com
+0.0.0.0 origin-tracker.githubusercontent.com
+0.0.0.0 copilot-telemetry-service.githubusercontent.com
+0.0.0.0 api.statsig.com
+0.0.0.0 events.statsigapi.net
+0.0.0.0 app.adjust.com
+0.0.0.0 mobile.events.data.microsoft.com
 # Google Gemini / AI Studio
 0.0.0.0 www.google-analytics.com
 0.0.0.0 analytics.google.com
@@ -21,6 +27,8 @@
 0.0.0.0 datadoghq.com
 0.0.0.0 segment.io
 0.0.0.0 singular.net
+0.0.0.0 fscdn.eppo.cloud
+0.0.0.0 ah-cdn.merge.dev
 # nextjs
 0.0.0.0 telemetry.nextjs.org
 # gopls
@@ -50,7 +58,7 @@
 0.0.0.0 player.svc.litv.tv
 0.0.0.0 man.vm5apis.com
 0.0.0.0 onetag.com
-#slock
+# slock/raft
 0.0.0.0 slock-trace-upload.botiverse.dev
 # google
 0.0.0.0		google-analytics.com
@@ -72,6 +80,11 @@
 0.0.0.0		apmplus.volces.com
 0.0.0.0		analytics.tiktok.com
 0.0.0.0		mon.byteoversea.com
+0.0.0.0		tosv.byted.org
+0.0.0.0		metrics.byted.org
+# tencent
+0.0.0.0		otheve.beacon.qcloud.com
+0.0.0.0		aegis.qq.com
 # microsoft
 0.0.0.0		telemetry.microsoft.com
 0.0.0.0		vortex.data.microsoft.com
@@ -87,6 +100,7 @@
 0.0.0.0		telecommand.telemetry.microsoft.com
 0.0.0.0		sqm.telemetry.microsoft.com
 0.0.0.0		diagnostics.office.com
+0.0.0.0		applicationinsights.azure.com
 # viglink
 0.0.0.0		viglink.com
 # cherry-ai
@@ -109,6 +123,7 @@
 # Mixpanel
 0.0.0.0		api.mixpanel.com
 0.0.0.0		decide.mixpanel.com
+0.0.0.0   mixpanel.com
 # Segment
 0.0.0.0		api.segment.io
 # New Relic
